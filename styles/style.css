@@ -39,8 +39,20 @@ a:hover{
     border-radius: 20px;
 }
 
+#whatsapp-btn{
+    border: 2px solid rgb(37, 211, 102);
+    padding: 10px;
+    border-radius: 20px;
+}
+
 #instagram-btn:hover{
     background-color: rgb(164, 52, 156);
+    color: white;
+    transition: 0.3s;
+}
+
+#whatsapp-btn:hover{
+    background-color: rgb(37, 211, 102);
     color: white;
     transition: 0.3s;
 }
