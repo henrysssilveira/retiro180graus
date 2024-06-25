@@ -50,10 +50,13 @@ a:hover{
     border-radius: 20px;
 }
 
-#whatsapp-btn{
+#whatsapp-btn {
     border: 2px solid rgb(37, 211, 102);
     padding: 10px;
     border-radius: 20px;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
 }
 
 #instagram-btn:hover{
