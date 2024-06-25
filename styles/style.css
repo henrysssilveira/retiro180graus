@@ -116,7 +116,7 @@ img{
 }
 
 form [type="submit"]{
-    display: block;
+    display: flex;
     margin: auto;
     height: 50px;
     width: 30%;
