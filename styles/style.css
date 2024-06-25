@@ -51,15 +51,16 @@ a:hover{
 }
 
 #whatsapp-btn {
-    border: 2px solid rgb(37, 211, 102);
-    padding: 10px 20px; /* Ajusta o preenchimento para um tamanho adequado */
-    border-radius: 30px;
+    border: 2px solid rgb(37, 211, 102); /* Mantém a cor do WhatsApp */
+    padding: 10px; /* Ajusta o preenchimento conforme o botão do Instagram */
+    border-radius: 20px; /* Ajusta o raio da borda conforme o botão do Instagram */
     display: flex;
-    margin-top: 10px;
-    margin: auto;
+    justify-content: center; /* Centraliza o conteúdo horizontalmente */
+    align-items: center; /* Centraliza o conteúdo verticalmente */
+    margin: 20px auto 0; /* Espaçamento superior e centralização horizontal */
     text-align: center; /* Centraliza o texto dentro do botão */
     width: 150px; /* Largura comum para botão */
-    height: 30px; /* Altura comum para botão */
+    height: 50px; /* Altura comum para botão */
 }
 
 
