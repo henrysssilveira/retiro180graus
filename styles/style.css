@@ -70,7 +70,9 @@ a:hover{
     text-align: justify;
     border: 2px solid rgb(164, 52, 156);
     padding: 10px;
-    display: flex;
+    display: block;
+    border-radius: 20px;
+    margin: auto;
 }
 
 .paragrafo1 {
