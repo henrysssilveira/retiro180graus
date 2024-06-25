@@ -59,7 +59,7 @@ a:hover{
     text-align: center; /* Centraliza o texto dentro do botão */
     width: 150px; /* Largura comum para botão */
     height: 50px; /* Altura comum para botão */
-    line-height: 30px; /* Ajusta a linha para centralizar o texto verticalmente */
+    line-height: 20px; /* Ajusta a linha para centralizar o texto verticalmente */
 }
 
 
