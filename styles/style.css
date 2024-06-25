@@ -52,6 +52,7 @@ a:hover{
 
 #whatsapp-btn {
     border: 2px solid rgb(37, 211, 102);
+    max-width: 75px;
     padding: 10px;
     border-radius: 20px;
     display: block;
