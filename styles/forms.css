@@ -1,0 +1,178 @@
+body {
+    background-color: rgb(23, 23, 23);
+    color: rgb(223, 223, 223);
+    font-family: poppinsregular, sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#title {
+    flex-direction: column;
+    line-height: 1.2; /* Ajuste para melhor legibilidade */
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding: 0;
+}
+
+nav li {
+    margin: 0;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: rgb(164, 52, 156);
+    transition: 0.3s all;
+}
+
+#instagram-btn, #whatsapp-btn {
+    border: 2px solid;
+    padding: 10px;
+    border-radius: 20px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 150px;
+    height: 40px;
+    margin-left: 10px;
+}
+
+#instagram-btn {
+    border-color: rgb(164, 52, 156);
+}
+
+#whatsapp-btn {
+    border-color: rgb(37, 211, 102);
+}
+
+#instagram-btn:hover {
+    background-color: rgb(164, 52, 156);
+    color: white;
+    transition: 0.3s;
+}
+
+#whatsapp-btn:hover {
+    background-color: rgb(37, 211, 102);
+    color: white;
+    transition: 0.3s;
+}
+
+section {
+    border: 2px solid rgb(164, 52, 156);
+    border-radius: 20px;
+    padding: 20px;
+    margin: 20px 0;
+    text-align: justify;
+}
+
+h1.titulo {
+    font-weight: 200;
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 60px;
+    line-height: 1.2;
+    font-family: poppinsmedium, sans-serif;
+}
+
+span {
+    color: rgb(164, 52, 156);
+}
+
+p {
+    line-height: 1.5;
+    max-width: 800px;
+    font-family: poppinslight, sans-serif;
+}
+
+img {
+    width: 100%;
+    max-width: 600px;
+}
+
+#meuformulario {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin: auto;
+}
+
+form [type="submit"] {
+    height: 50px;
+    width: 100%;
+    background-color: rgb(164, 52, 156);
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s;
+}
+
+form [type="submit"]:hover {
+    background-color: rgb(150, 50, 150);
+}
+
+input {
+    margin-top: 15px;
+    height: 20px;
+    padding: 15px;
+    border-radius: 30px;
+    border: none;
+    font-size: 15px;
+    background-color: rgb(223, 223, 223);
+}
+
+.botao {
+    display: block;
+    line-height: 15px;
+    padding: 10px;
+    margin: 20px auto;
+    border-radius: 30px;
+    border: none;
+    height: 50px;
+    width: 30%;
+    background-color: rgb(164, 52, 156);
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.botao:hover {
+    background-color: rgb(150, 50, 150);
+}
+
+#qr-code {
+    margin: 20px auto;
+    display: block;
+    max-width: 300px;
+    border-radius: 30px;
+    border-width: 7px;
+    border-style: solid;
+    border-color: rgb(164, 52, 156);
+    padding: 10px;
+}
