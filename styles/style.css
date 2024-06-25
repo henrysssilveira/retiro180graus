@@ -52,13 +52,16 @@ a:hover{
 
 #whatsapp-btn {
     border: 2px solid rgb(37, 211, 102);
-    max-width: 75px;
-    padding: 10px;
+    padding: 10px 20px; /* Ajusta o preenchimento para um tamanho adequado */
     border-radius: 20px;
     display: block;
     margin: 0 auto;
-    text-align: center;
+    text-align: center; /* Centraliza o texto dentro do botão */
+    width: 150px; /* Largura comum para botão */
+    height: 50px; /* Altura comum para botão */
+    line-height: 30px; /* Ajusta a linha para centralizar o texto verticalmente */
 }
+
 
 #instagram-btn:hover{
     background-color: rgb(164, 52, 156);
