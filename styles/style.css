@@ -53,13 +53,13 @@ a:hover{
 #whatsapp-btn {
     border: 2px solid rgb(37, 211, 102);
     padding: 10px 20px; /* Ajusta o preenchimento para um tamanho adequado */
-    border-radius: 20px;
-    display: block;
+    border-radius: 30px;
+    display: flex;
     margin: 0 auto;
     text-align: center; /* Centraliza o texto dentro do botão */
     width: 150px; /* Largura comum para botão */
-    height: 50px; /* Altura comum para botão */
-    line-height: 20px; /* Ajusta a linha para centralizar o texto verticalmente */
+    height: 30px; /* Altura comum para botão */
+    line-height: 10px; /* Ajusta a linha para centralizar o texto verticalmente */
 }
 
 
