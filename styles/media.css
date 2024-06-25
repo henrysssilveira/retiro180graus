@@ -4,7 +4,7 @@
         flex-direction: column;
     }
     #title{
-        line-height: 30px;
+        line-height: 20px;
     }
     main{
         flex-direction: column-reverse;
