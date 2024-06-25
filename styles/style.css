@@ -55,11 +55,11 @@ a:hover{
     padding: 10px 20px; /* Ajusta o preenchimento para um tamanho adequado */
     border-radius: 30px;
     display: flex;
-    margin: 0 auto;
+    margin-top: 10px;
+    margin: auto;
     text-align: center; /* Centraliza o texto dentro do botão */
     width: 150px; /* Largura comum para botão */
     height: 30px; /* Altura comum para botão */
-    line-height: 10px; /* Ajusta a linha para centralizar o texto verticalmente */
 }
 
 
