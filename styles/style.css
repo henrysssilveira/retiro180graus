@@ -115,15 +115,20 @@ img{
     width: 70%;
 }
 
-form [type="submit"]{
-    display: flex;
-    margin: auto;
-    height: 50px;
-    width: 30%;
-    background-color: rgb(164, 52, 156);
-    color: white;
-    font-weight: bold;
-    align-self: center;
+.form [type="submit"] {
+            display: flex;
+            margin: auto;
+            height: 50px;
+            width: 100%;
+            background-color: rgb(164, 52, 156);
+            color: white;
+            font-weight: bold;
+            align-self: center;
+            justify-content: center;
+            align-items: center;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
 }
 
 .botao{
