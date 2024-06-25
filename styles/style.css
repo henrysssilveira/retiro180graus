@@ -67,7 +67,18 @@ a:hover{
 
 #sobre-o-retiro{
     align-items: center;
+    text-align: justify;
+    border: 2px solid rgb(164, 52, 156);
+    padding: 10px;
+    display: flex;
 }
+
+.paragrafo1 {
+    text-align: justify;
+    border: 1px solid #C8A2C8; /* Cor lilás */
+    padding: 10px; /* Espaçamento interno opcional */
+}
+
 
 h1{
     font-weight: 200;
