@@ -138,3 +138,20 @@ input{
     border-bottom-left-radius: 10px;
     border-color: rgb(37, 211, 102);
 }
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* ou a altura desejada */
+}
+
+#whatsapp-btn {
+    border: 2px solid rgb(37, 211, 102);
+    padding: 10px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
