@@ -12,11 +12,11 @@
     h2{
         align-self: center;
         font-size: 30px;
-        line-height: 20px;
+        line-height: 10px;
     }
     form{
         margin: 0 auto;
-        width: 70%;
+        width: 50%;
     }
     input{
         align-self: center;
